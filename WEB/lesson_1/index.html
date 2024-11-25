@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адаптивная страница</title>
+    <link rel="shortcut icon" href="./img/ex.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="head">
+        <div class="head__log">
+            <img src="./ex.png" alt="ex">
+        </div>
+        <div class="head__name">
+            Amateur layout club
+        </div></div>
+        <nav class="head__nav">
+            <ul>
+                <li>
+                    <a href="#" id="nos">Главная</a>>
+                <li>
+                    <a href="#" id="nos">О нас</a>
+                </li>
+                <li>
+                    <a href="#" id="nos">Услуги</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <div class="main__start">
+            Таблица:
+        </div>
+
+        <table class="col-12 col-md-3">
+            <thead>
+                <tr><td colspan="7">Таблица</td></tr>
+            </thead>
+            <tr class="main__color1">
+                <td>Каждый</td>
+                <td>Охотник</td>
+                <td>Желает</td>
+                <td>Знать</td>
+                <td>Где</td>
+                <td>Сидит</td>
+                <td>Фазан</td>
+            </tr>
+            <tr class="main__color2">
+                <td>Каждый</td>
+                <td rowspan="5">Охотник</td>
+                <td>Желает</td>
+                <td>Знать</td>
+                <td>Где</td>
+                <td>Сидит</td>
+                <td>Фазан</td>
+            </tr>
+            <tr class="main__color1">
+                <td>Каждый</td>
+                <td>Желает</td>
+                <td>Знать</td>
+                <td>Где</td>
+                <td>Сидит</td>
+                <td>Фазан</td>
+            </tr>
+            <tr class="main__color2">
+                <td>Каждый</td>
+                <td>Желает</td>
+                <td>Знать</td>
+                <td>Где</td>
+                <td>Сидит</td>
+                <td>Фазан</td>
+            </tr>
+            <tr class="main__color1">
+                <td>Каждый</td>
+                <td>Желает</td>
+                <td>Знать</td>
+                <td>Где</td>
+                <td>Сидит</td>
+                <td>Фазан</td>
+            </tr>
+            <tr class="main__color2">
+                <td>Каждый</td>
+                <td>Желает</td>
+                <td>Знать</td>
+                <td>Где</td>
+                <td>Сидит</td>
+                <td>Фазан</td>
+            </tr>
+
+        </table>
+        <div class="main__mid">
+                Маркированный список гиперссылок:
+        </div>
+        <div class="col-12 col-md-3">
+            
+
+            </ul class="main__link">
+                    <li>
+                        <a href="http://kubsu.ru" id="a1">Главная страница сайта kubsu.ru</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="https://kubsu.ru"v>Главная сайта kubsu.ru в протоколе HTTPS</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="https://avatars.mds.yandex.net/i?id=1ab9f5f8f610b9e30aa551e6365ed616_l-6339443-images-thumbs&n=13">Ссылка-изображение</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="/lesson_1">Сокращенная ссылка на внутреннюю страницу</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="/">Сокращенная ссылка на главную страницу</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="#tel">Ссылка на фрагмент текущей страницы</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="/lesson_1?param1=value1&param2=value2&param3=value3">Ссылка с тремя параметрами в URL</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="/lesson_1?id=123">Ссылка с параметром id в URL</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="demo.html">Относительная ссылка на страницу в текущем каталоге</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="about/form.html">Относительная ссылка на страницу в каталоге about</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="../demo.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a>
+                    </li>
+                    <li>
+                        <a id="a1" href="../../form.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a>
+                    </li>
+                    <p id="a1" >Контекстная <a id="a1" href="https://www.kubsu.ru/">ссылка в тексте абзаца</a>.</p>
+                    <li>
+                        <a id="a1" href="https://developer.mozilla.org/ru/docs/Web/HTML#cors_настройки_атрибутов">Ссылка на фрагмент страницы стороннего сайта</a>
+                    </li>
+                    
+                    <li>
+                        <a id="a1" href="#">Ссылка с пустым href</a>
+                    </li>
+                    <li>
+                        <a id="a1" >Ссылка без href</a>
+                    </li>
+                    <li>
+                        <a id="a1" rel="nofollow" href="https://www.kubsu.ru/">Ссылка, по которой запрещен переход поисковикам</a>
+                    </li>
+                    <li>
+                        <a id="a1" rel="noindex" href="https://www.kubsu.ru/">Запрещенная для индексации поисковиками ссылка</a>
+                    </li> <br>
+                    <ol>
+                        <li><a id="a1" href="https://www.kubsu.ru/ru/university/departments" title="Описание страницы 1">Страница 1</a></li>
+                        <li><a id="a1" href="https://www.kubsu.ru/ru/fktipm" title="Описание страницы 2">Страница 2</a></li>
+                        <li><a id="a1" href="https://developer.mozilla.org/ru/docs/Web/HTML" title="Описание страницы 3">Страница 3</a></li>
+                    </ol> <br>
+                    <li>
+                        <a id="a1" href="ftp://username:password@ftp.example.com/file.txt">FTP-ссылка с авторизацией</a>
+                    </li>
+            </ul>
+
+            <img
+                src="https://res.cloudinary.com/thewebmaster/image/upload/f_auto,q_auto,w_600/image/moon-earth.png"
+                width="400"
+                height="250"
+                alt="Area Tag Demo."
+                usemap="#workmap"
+                class="img-1"
+            />
+            <map name="workmap">
+                <area shape="circle" coords="178,171,133" alt="Earth" href="https://en.wikipedia.org/wiki/Earth" target="_blank"/>
+                <area shape="circle" coords="455,130,80"  alt="Moon"  href="https://en.wikipedia.org/wiki/Moon"  target="_blank"/>
+            </map>
+            <div>
+
+            <div class="data">
+                <div class="data__FCs">
+                    <label for="text">Ваше ФИО</label>
+                    <input type="text" id="text" name="text" required>
+                </div> <br>
+        
+                <div class="data__tel">
+                    <label for="tel">Введите номер телефона:</label>
+                    <input type="tel" id="tel" name="tel" required>
+                </div><br>
+                <div class="data__email">
+                    <label for="email">Введите ваш email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div> <br>
+                <div class="data__date">
+                    <label for="date">Когда вы родились?</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                    Ваш пол:
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio1">Мужской</label>
+                      </div>
+                     
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio2">Женский </label>
+                      </div>
+        
+                <div class="data__lang">
+                    <label for="lang">Выберите ваш любимый язык программирования</label>
+        
+                    <select name="programming_language[]" multiple size="6" required id="leng-select">
+                        <option value="Pascal">Pascal</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="Haskel">Haskel</option>
+                        <option value="Clojure">Clojure</option>
+                        <option value="Prolog">Prolog</option>
+                        <option value="Scala">Scala</option>
+                    </select>
+                    </div>
+        
+                <div class="data__biography">
+                    <label for="textarea">Введите биографию:</label> <br>
+                    <textarea id="textarea" name="textarea" rows="4" cols="50" required></textarea>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">с контрактом</label>
+                  </div>
+                <div id="button"><button type="submit" class="btn btn-dark">Сохранить</button></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="text">(c) Моисеев Ратмир</div>
+    </footer>
+    
+</body>
+</html>
